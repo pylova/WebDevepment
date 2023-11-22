@@ -63,3 +63,25 @@ ol{
     color: #72005f;
     font-style: italic;
 }
+
+ul.navigation 
+    {
+    border-style: solid;
+    border-width: 1px;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background-color: rgb(0, 97, 100);
+    }
+    ul.navigation li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    }
+    ul.navigation li a {
+    color: white;
+    }       
+    
+    ul li.selected {
+    color: yellow;
+    }
